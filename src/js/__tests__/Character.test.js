@@ -28,9 +28,6 @@ test('should check the class Character no name', () => {
   expect(character).toMatchObject(result);
 });
 
-
-//////////////////
-
 test('should levelUp the defence', () => {
   const character = new Character('Player', 'Magician');
   character.health = 0;
